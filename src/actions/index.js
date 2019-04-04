@@ -4,7 +4,7 @@ export function addToDo(title) {
   return {
     type: ADD_TODO,
     toDoItem: {
-      _id: Date.now(),
+      _id: Date.now().toString(),
       title
     }
   };

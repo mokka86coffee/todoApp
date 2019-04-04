@@ -12,7 +12,7 @@ const store = createStore(toDoApp);
 
 render(
   <Provider store={store}>
-    <App title={'My New React Bootstrap SPA'}/>
+    <App />
   </Provider>,
   document.getElementById('root')
 );
